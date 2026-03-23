@@ -221,3 +221,11 @@ if (password_verify($contrasena, $hash)) {
 } else {
     echo "La contraseña es incorrecta\n";
 }
+
+//header
+//Envía un encabezado HTTP
+//Usado comumente para redireccionar a otra página
+
+header('Location: http://www.example.com/');
+exit;
+
