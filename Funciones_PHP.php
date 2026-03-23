@@ -76,5 +76,20 @@ echo substr($texto, 0,2) ."\n";
 $mensaje = "Bienvenido al curso de PHP";
 $posicion = strpos($mensaje, "PHP");
 
-echo $posicion;
+echo $posicion."\n";
+
+//explode
+//dividir una cadena de texto en varias partes cada vez que encuentra un separador específico
+//guardar esas partes dentro de un array
+
+$frutas = "manzana,pera,plátano,uva";
+$lista = explode(",", $frutas);
+
+echo $lista[0]."\n";
+
+//implode
+//Es lo contrario al explode, convierte un array en una cadena de texto utilizando un separador específico.
+
+$lista_frutas = implode(", ", $lista);
+echo $lista_frutas . "\n";
 
