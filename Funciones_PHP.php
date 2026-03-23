@@ -180,3 +180,12 @@ echo rand(10, 100)."\n";
 //Redondea un número
 
 echo round(3.7)."\n";
+
+//date
+//Da formato a una marca de tiempo
+//Dependiendo se debe establecer la zona horaria
+
+date_default_timezone_set('UTC');
+
+echo date("Y-m-d");
+
