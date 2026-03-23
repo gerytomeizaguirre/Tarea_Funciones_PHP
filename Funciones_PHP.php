@@ -120,3 +120,17 @@ $comida = array_merge($frutas, $verduras);
 
 echo count($comida) . "\n";
 
+//array_keys()
+//Devuelve todas las etiquetas de un array
+
+$usuario = [
+    "id" => 52,
+    "nombre" => "Carlos",
+    "email" => "carlos@example.com",
+    "rol" => "admin"
+];
+
+$campos = array_keys($usuario);
+
+print_r($campos);
+
