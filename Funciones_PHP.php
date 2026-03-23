@@ -213,5 +213,11 @@ $hash = password_hash($contrasena, PASSWORD_DEFAULT);
 
 echo $hash."\n";
 
+//password_verify
+//Verifica que una contraseña coincide con un hash
 
-
+if (password_verify($contrasena, $hash)) {
+    echo "La contraseña es correcta\n";
+} else {
+    echo "La contraseña es incorrecta\n";
+}
