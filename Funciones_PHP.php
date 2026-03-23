@@ -34,3 +34,8 @@ if (is_string($nombre)) {
 //Los arrays y objetos son explorados recursivamente, con indentaciones, para resaltar su estructura.
 
 var_dump($nombre)."\n";
+
+//strlen()
+//Calcula el tamaño de un string incluyendo espacios, puntos y símbolos.
+
+echo strlen($nombre) . "\n";
