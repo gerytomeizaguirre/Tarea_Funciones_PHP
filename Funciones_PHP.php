@@ -202,4 +202,16 @@ echo "Expira en: " . $expiracion."\n";
 //strtotime
 //Esta función convierte cadenas de texto en marcas de tiempo
 
-echo strtotime("next Monday \n");
+echo strtotime("next Monday")."\n";
+
+//password_hash
+//Genera un hash seguro para contraseñas
+
+$contrasena = "contraseña_1234";
+
+$hash = password_hash($contrasena, PASSWORD_DEFAULT);
+
+echo $hash."\n";
+
+
+
