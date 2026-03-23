@@ -1,12 +1,18 @@
 <?php
 //isset();
 //isset: Determina si una variable está declarada y es distinta de null.
-//Devolverá como false al comprobar una variable a la que se le ha asignado el valor null.
 
 $nombre = "Gery";
 
 if (isset($nombre)) {
-    echo "Nombre Ingresado"; // Esto se imprime
+    echo "Nombre Ingresado\n"; // Esto se imprime
 }
 
+//empty();
+//Es una funcion que se utilizar para chequear si una variable contiene algun dato.
+$apellido = "";
+
+if (empty($apellido)) {
+    echo "Apellido Vacio\n"; 
+}
 
