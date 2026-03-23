@@ -148,3 +148,26 @@ if (in_array("Pera", $comida)) {
     echo "Pera esta en la lista \n";
 }
 
+//sort() / asort()
+//sort() ordena un array de menor a mayor
+//asort() ordena un array de menor a mayor y mantiene la asociación de índices al ordenar un array asociativo.
+//rsort y arsort ordenan de mayor a menor
+
+$frutas = ["D" => "Limón", "A" => "Naranja", "B" => "Banana", "C" => "Manzana"];
+sort($frutas);
+
+print_r($frutas);
+
+$puntajes = ["Juan" => 50, "Ana" => 90, "Pedro" => 30];
+asort($puntajes);
+
+print_r($puntajes);
+
+rsort($frutas);
+
+print_r($frutas);
+
+arsort($puntajes);
+
+print_r($puntajes);
+
