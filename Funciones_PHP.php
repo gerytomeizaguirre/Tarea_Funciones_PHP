@@ -62,4 +62,9 @@ echo strtoupper($nombre) ."\n";
 $texto = "     Me gusta el agua     ";
 echo trim($texto) ."\n";
 
+//substr
+//Extrae una parte de un string
+
+$texto = "Me gusta el agua";
+echo substr($texto, 0,2) ."\n";
 
