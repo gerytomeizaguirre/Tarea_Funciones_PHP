@@ -48,3 +48,9 @@ $nuevo_texto = str_replace("cafe", "te", $texto);
 
 echo $nuevo_texto;
 echo "\n";
+
+//strtolower() / strtoupper()
+//Cambia a minusculas o mayusculas respectivamente
+
+
+echo strtoupper($nombre) ."\n";
