@@ -140,3 +140,11 @@ print_r($campos);
 $valores = array_values($usuario);
 
 print_r($valores);
+
+//in_array
+//Indica si un valor pertenece a un array
+
+if (in_array("Pera", $comida)) {
+    echo "Pera esta en la lista \n";
+}
+
