@@ -92,3 +92,8 @@ echo $lista[0]."\n";
 
 $lista_frutas = implode(", ", $lista);
 echo $lista_frutas . "\n";
+
+//count
+//Cuenta el número de elementos en un array
+
+echo count($lista) . "\n";
