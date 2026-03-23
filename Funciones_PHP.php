@@ -134,3 +134,9 @@ $campos = array_keys($usuario);
 
 print_r($campos);
 
+//array_values()
+//Devuelve todos los valores de un array
+
+$valores = array_values($usuario);
+
+print_r($valores);
