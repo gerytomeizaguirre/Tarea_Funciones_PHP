@@ -39,3 +39,12 @@ var_dump($nombre)."\n";
 //Calcula el tamaño de un string incluyendo espacios, puntos y símbolos.
 
 echo strlen($nombre) . "\n";
+
+//str_replace
+//Busca y reemplaza, devuelve una string o un array dependiendo de los datos cambiados
+
+$texto = "Me gusta el cafe por la mañana.";
+$nuevo_texto = str_replace("cafe", "te", $texto);
+
+echo $nuevo_texto;
+echo "\n";
