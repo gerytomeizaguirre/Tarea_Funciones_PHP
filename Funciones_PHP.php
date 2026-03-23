@@ -176,3 +176,7 @@ print_r($puntajes);
 
 echo rand(10, 100)."\n";
 
+//round
+//Redondea un número
+
+echo round(3.7)."\n";
