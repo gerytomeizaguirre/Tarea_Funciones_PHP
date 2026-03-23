@@ -198,3 +198,8 @@ $ahora = time();
 $expiracion = $ahora + (2 * 60 * 60); 
 
 echo "Expira en: " . $expiracion."\n";
+
+//strtotime
+//Esta función convierte cadenas de texto en marcas de tiempo
+
+echo strtotime("next Monday \n");
