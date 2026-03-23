@@ -68,3 +68,13 @@ echo trim($texto) ."\n";
 $texto = "Me gusta el agua";
 echo substr($texto, 0,2) ."\n";
 
+//strpos
+//Busca la posición en un string 
+//La estructura es: strpos(pajar, aguja, inicio)
+//pajar donde se quiere buscar, aguja lo que se quiere buscar e inicio es opcional
+
+$mensaje = "Bienvenido al curso de PHP";
+$posicion = strpos($mensaje, "PHP");
+
+echo $posicion;
+
