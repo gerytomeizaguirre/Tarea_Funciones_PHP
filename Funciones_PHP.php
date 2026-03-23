@@ -54,3 +54,12 @@ echo "\n";
 
 
 echo strtoupper($nombre) ."\n";
+
+
+//trim
+//Elimina los espacios en un string
+
+$texto = "     Me gusta el agua     ";
+echo trim($texto) ."\n";
+
+
