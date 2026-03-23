@@ -97,3 +97,15 @@ echo $lista_frutas . "\n";
 //Cuenta el número de elementos en un array
 
 echo count($lista) . "\n";
+
+//array_push() / array_pop()
+//array_push() agrega uno o más elementos al final de un array
+//array_pop() elimina el último elemento de un array
+
+array_push($lista, "naranja");
+
+echo count($lista) . "\n";
+
+array_pop($lista);
+
+echo count($lista) . "\n";
