@@ -21,3 +21,12 @@ if (empty($apellido)) {
 
 echo gettype($nombre) . "\n";
 
+//is_a
+//is_array() / is_int() / is_string()
+//Verifica si el objeto es de un cierto tipo o subtipo
+
+if (is_string($nombre)) {
+    echo "El nombre es válido. \n";
+}
+
+
