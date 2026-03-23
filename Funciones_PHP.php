@@ -187,5 +187,14 @@ echo round(3.7)."\n";
 
 date_default_timezone_set('UTC');
 
-echo date("Y-m-d");
+echo date("Y-m-d")."\n";
 
+//time
+//Devuelve la marca de tiempo actual
+
+echo time()."\n";
+
+$ahora = time();
+$expiracion = $ahora + (2 * 60 * 60); 
+
+echo "Expira en: " . $expiracion."\n";
