@@ -171,3 +171,8 @@ arsort($puntajes);
 
 print_r($puntajes);
 
+//rand
+//Genera un número aleatorio entre un rango específico
+
+echo rand(10, 100)."\n";
+
