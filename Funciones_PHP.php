@@ -29,4 +29,8 @@ if (is_string($nombre)) {
     echo "El nombre es válido. \n";
 }
 
+//var_dump()
+//muestra información estructurada sobre una variable, incluyendo su tipo y valor. 
+//Los arrays y objetos son explorados recursivamente, con indentaciones, para resaltar su estructura.
 
+var_dump($nombre)."\n";
