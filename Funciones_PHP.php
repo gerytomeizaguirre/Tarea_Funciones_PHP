@@ -226,6 +226,25 @@ if (password_verify($contrasena, $hash)) {
 //Envía un encabezado HTTP
 //Usado comumente para redireccionar a otra página
 
-header('Location: http://www.example.com/');
-exit;
+//header('Location: http://www.example.com/');
+//exit;
+
+//json_encode() / json_decode()
+//json_encode() convierte un valor de PHP a formato JSON
+//json_decode() convierte una cadena JSON a un valor de PHP
+
+$usuarios = [
+    "nombre" => "Elena",
+    "edad" => 28,
+    "habilidades" => ["PHP", "JS", "SQL"],
+    "activo" => true
+];
+
+$json_resultado = json_encode($usuarios);
+
+echo $json_resultado."\n";
+
+$json = json_decode($json_resultado, true);
+
+print_r($json);
 
