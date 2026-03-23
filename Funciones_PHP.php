@@ -16,3 +16,8 @@ if (empty($apellido)) {
     echo "Apellido Vacio\n"; 
 }
 
+//gettype()
+//Devuelve el tipo de dato de la variable
+
+echo gettype($nombre) . "\n";
+
