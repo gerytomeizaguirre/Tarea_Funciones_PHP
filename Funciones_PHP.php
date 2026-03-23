@@ -246,5 +246,13 @@ echo $json_resultado."\n";
 
 $json = json_decode($json_resultado, true);
 
-print_r($json);
+print_r($json)."\n";
 
+//filter_var()
+//Filtra una variable con el filtro que se indique
+
+$email = "usuario@ejemplo.com";
+
+if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    echo "El correo es válido\n";
+}
