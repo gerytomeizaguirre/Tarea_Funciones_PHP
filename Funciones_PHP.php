@@ -109,3 +109,14 @@ echo count($lista) . "\n";
 array_pop($lista);
 
 echo count($lista) . "\n";
+
+//array_merge()
+//Se usa para combinar dos o más arrays en uno solo
+
+$frutas = ["Manzana", "Pera"];
+$verduras = ["Lechuga", "Tomate"];
+
+$comida = array_merge($frutas, $verduras);
+
+echo count($comida) . "\n";
+
